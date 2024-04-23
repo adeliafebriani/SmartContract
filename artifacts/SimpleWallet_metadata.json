@@ -155,11 +155,11 @@
 	},
 	"sources": {
 		"SmartContract.sol": {
-			"keccak256": "0x8578e14f34f48654abb3c0d99ba637094f65ed85ae2dedd2a73da26121902acd",
+			"keccak256": "0x64a18c0d29fefee9cec7d00b53516d3721c5950de33b8a83d5dd8c1d0c9c96b6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://08b53909200221f67380aff5083a3aa89a159e270db6b23a3596ab1866c42287",
-				"dweb:/ipfs/QmZRZtH6GaV6DPsV8GFiMd4smdY6EJjUsvUaYxp44iMaSw"
+				"bzz-raw://18fd1a218e7be220a1fd320b9566987a00c2ebfb2068c515bf9e674ad9a17258",
+				"dweb:/ipfs/QmbuAqVhoZLV7HGNuaitcBGwUxhTptdFHkKPom3Rrq5MRH"
 			]
 		}
 	},

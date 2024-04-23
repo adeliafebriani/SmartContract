@@ -8,6 +8,7 @@ contract SimpleWallet {
     event Deposit(address indexed _from, uint _amount);
     event Withdrawal(address indexed _to, uint _amount);
 
+    // sets the owner to the address that deployed the contract
     constructor() {
         owner = msg.sender;
     }
@@ -35,6 +36,7 @@ contract SimpleWallet {
         return balances[msg.sender];
     }
 
+    // owner can check the contract's balance
     function contractBalance() public view onlyOwner returns (uint) {
         return address(this).balance;
     }
